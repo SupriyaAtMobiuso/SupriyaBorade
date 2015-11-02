@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="resumeStylesheet.css"/>
+		
+		<script>
+		var p1counter=0;
+		function project1Descriptn()
+		{
+		    if(p1counter===0)
+		    {
+		  document.getElementById("descriptn1").innerHTML="Online Shopping Cart is a web application enabling web clients to shop online. Catalogue is shown to the client of the items which are available. The details of items are maintained in database."; 
+		  p1counter=1;
+		    }
+		    else
+		    {
+		         document.getElementById("descriptn1").innerHTML=" ";
+		         p1counter=0;
+		    }
+		    
+		}
+		
+		var p2counter=0;
+		function project2Descriptn()
+		{
+		    if(p2counter===0)
+		    {
+		  document.getElementById("descriptn2").innerHTML="Chat Application is a distributed Application. One instance of Server Application and multiple instances of Client Application running over the network."; 
+		  p2counter=1;
+		    }
+		    else
+		    {
+		         document.getElementById("descriptn2").innerHTML=" ";
+		         p2counter=0;
+		    }
+		    
+		}
+	</script>
+	</head>
+	<body>
+		<div>
+        	<img src="" id="pic" />
+        	<div>
+                <h1>Supriya Borade</h1>
+        		<p><strong>Email: </strong><a class="email">supriya.borade91@gmail.com</a><br>
+                  <strong> Mb No: </strong><span class="tel">9867063163</span> 
+                </p>
+       		</div>
+                
+        	<div id="objective">
+                Looking forward to an opportunity for working in a dynamic, challenging environment where I can utilize my skills for developing my career and for the growth of the organization. 
+                
+       		</div>
+        
+        	<div class="clear"></div>
+        
+        	<dl>
+            	<dd class="clear"></dd>
+                <dt id="dt1">Education : </dt>
+           		<dd>
+           		    <h2>Bachelor of Engineering
+(Information Technology)</h2>
+                	<p><strong>University:</strong> Mumbai<br />
+                    <strong>Percentage:</strong> 63.33</p>
+           			 </dd>
+            
+            	<dd class="clear"></dd>
+            
+            	 <dt id="dt2">Skills : </dt>
+            <dd>
+                <div>
+                <h2>Technical Skills:</h2>
+                <p><strong>JAVA</strong>
+                <div id="progressbar">
+                    <div class="progressbar" id="progressbar1">60%</div>
+                </div></p>
+                
+                <p><strong>HTML</strong>
+                <div id="progressbar">
+                    <div class="progressbar" id="progressbar2">85%</div>
+                </div></p>
+                
+                <p><strong>C++</strong>
+                <div class="progressbar" id="progressbar">
+                    <div class="progressbar" id="progressbar3">45%</div>
+                </div></p>
+                
+                
+               
+             </div>  
+            </dd>
+            
+            <dd class="clear"></dd>
+            
+            <dt id="dt1">Project : </dt>
+            <dd>
+                <h2><div button type="button" onclick="project1Descriptn()"><a>Online Shopping Cart </a></div></h2>
+                
+                  <div class="descriptn" id="descriptn1"></div>
+                
+                <br/>
+                <h2><div button type="button" onclick="project2Descriptn()"><a>Distributed Chat Application</a></div> </h2>
+               <div class="descriptn" id="descriptn2"></div><br/><br/>
+            </dd>
+            
+            <dd class="clear"></dd>
+            
+            <dt id="dt1">Hobbies : </dt>
+            <dd>
+            <img class="hobbies" src="http://img4.cliparto.com/pic/s/227999/4910230-dancing-couple-outlined-sketch.jpg" />
+            
+            <img class="hobbies" src="http://www.clker.com/cliparts/v/l/2/T/a/g/motorbike-th.png" />
+            
+            <img class="hobbies" src="http://ecx.images-amazon.com/images/I/31mdq%2BiLsqL._SL500_SR100,100_.jpg" />
+            
+            <img class="hobbies" src="http://sathishv.xtgem.com/images/Cricket%20logo.gif" />
+                <ul>
+                <li>&nbsp;&nbsp;&nbsp;Dancing&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                <li>Bike Riding&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                <li>Listening Music&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </li>
+                <li>Playing Cricket   </li>
+                </ul>
+            </dd>
+            
+            <dd class="clear"></dd>
+            
+            <dt><u>References</u></dt>
+            <dd>Priyanka Chaudhari</dd>
+            
+            <dd class="clear"></dd>
+        </dl>
+        
+        <div class="clear"></div>
+    
+    </div> 
+	</body>
+</html
